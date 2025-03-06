@@ -17,6 +17,7 @@ int main() {
     // conditional statements
     if (numericalGrade < 0 || numericalGrade > 100) {
         cout << "Invalid input! Please enter a grade between 0 and 100." << endl;
+        return 1;
     }
 
     if (numericalGrade >= 90) {
